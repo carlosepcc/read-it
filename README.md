@@ -20,6 +20,6 @@ Read-It uses a very rough method to determine the default language to use with t
 
     _tesseract_lang_code="$(tesseract --list-langs | grep ${LANG:0:2})"
 
-This works fine for a variety of languages such as englisch, italian, german, but not for spanish.
+This works fine for a variety of languages such as English, Italian, German, but not for Spanish.
 
 It also roughly overwrites existing extraction files.
